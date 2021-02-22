@@ -1,0 +1,131 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: century gothic;
+  box-sizing: border-box;
+}
+ul{
+	list-style-type: none;
+	float: right;
+	margin-top: 20px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 5px;
+	border: 2px solid transparent;
+	transition: 0.6s;
+}
+ul li a:hover{
+	background-color: white;
+	color: black;
+}
+ul li.active a{
+	background-color: white;
+	color: black;
+}
+.navbar{
+  max-width: 1300px;
+	margin: auto;
+}
+img{
+  width: 100%;
+}
+.profil{
+  float: right;
+}
+.featured-image {
+   width: 100%;
+   max-height: 300px;
+   object-fit: cover;
+   object-position: center;
+}
+footer{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("bromo.jpg");
+  text-align: center;
+  height: 30px;
+  margin-bottom: 10px;
+  color: white;
+}
+.card {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+   padding: 10px;
+   margin-top: 20px;
+}
+p{
+  text-align: justify;
+}
+header{
+  text-align: center;
+}
+.content{
+  float: left;
+  width: 73%;
+}
+.jumbotron {
+   font-size: 20px;
+   padding: 60px;
+   /* background-color: #00c8eb; */
+   text-align: center;
+   color: white;
+   background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("bromo.jpg");
+}
+.jumbotron p{
+  text-align: center;
+}
+.jumbotron h1{
+  font-size: 60px;
+}
+body {
+   font-family: 'Quicksand', sans-serif;
+   margin: 0;
+   padding: 0;
+}
+main {
+   padding: 20px;
+   overflow: auto;
+}
+main h1{
+  margin-bottom: 10px;
+}
+.foto{
+  max-width: 250px;
+}
+aside{
+  float: right;
+  width: 25%;
+  text-align: center;
+  padding-left: 20px;
+}
+aside p{
+  text-align: center;
+}
+#content {
+   float: left;
+   width: 70%;
+}
+@media screen and (max-width: 1000px) {
+   #content,
+   aside {
+       width: 100%;
+       padding: 0;
+   }
+   .content{
+     width: 100%;
+   }
+   footer{
+     width: 100%;
+   }
+}
+.stiky{
+  margin-top: -160px;
+  position: fixed;
+  padding-left: 10px;
+}
+.card img{
+  border-radius: 10px;
+}
